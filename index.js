@@ -29,7 +29,7 @@ document.querySelector('.check').addEventListener('click', function () {
       // );
     } else {
       messageScore('🤦‍♂️ You Lost the Game');
-
+      document.querySelector('.congrat').textContent ='Better Luck Next Time🫰'
       Number((document.querySelector('.score').textContent = '0'));
       document.querySelector('body').style.backgroundColor = '#FF0000';
     }
@@ -68,6 +68,6 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.score').textContent = score;
   document.querySelector('.secret').textContent = '?';
   messageScore('🤔 Start Guessing...');
-
+  document.querySelector('.congrat').textContent ='';
   document.querySelector('body').style.backgroundColor = '#222';
 });
