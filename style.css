@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+
+html{
+    background-color: aliceblue;
+    border: 5px yellow solid;
+}
+header{
+    position: relative;
+    height: 35vh;
+}
+header .btn{
+    padding:10px;
+    margin: 5px 5px;
+}
+body {
+  background-color: #222;
+  color: white;
+  font-family: 'Press Start 2P', sans-serif;
+}
+h1{
+    text-align: center;
+    margin-bottom: 75px;
+    margin-top: 50px;
+}
+header p{
+    text-align: right;
+    position: absolute;
+    top:2px;
+    right:2px;
+}
+.btn{
+    font-family: 'Press Start 2P',sans-serif;
+}
+main{
+    display:flex;
+    height:60vh;
+    justify-content: space-around;
+    align-items: center;
+    border-top:5px white solid;
+}
+.check{
+    width:fit-content;
+    padding:10px;
+    
+
+}
+.guess{
+    background-color: rgb( 36, 40, 40);
+    color:white;
+    border:2.5px white solid;
+    width:120px;
+    padding: 10px;
+    font-family: 'Press Start 2P',sans-serif;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.secret{
+    height:100px;
+    width: 200px;
+    border: 5px solid white;
+    background-color: rgb(253, 254, 255);
+    color: #222;
+    text-align: center;
+    margin:auto;
+    width: 25%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+.starting{
+    margin-bottom: 3rem;
+}
+.label-score{
+    margin-bottom: 1.5rem;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+
+}
+.congrat{
+    text-align: center;
+    height: 5vh ;
+
+}
